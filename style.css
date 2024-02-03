@@ -1,0 +1,274 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.header-container,.ex-experties{
+    background-image: linear-gradient(to top right #030640 ,#390751);
+    height: 100vh;
+    background-image: linear-gradient(45deg, #030640, #390751);
+    background-position: center;
+    background-size: cover;
+}
+.nav-logo {
+    display: flex;
+    gap: 20px;
+    width: 30%;
+    
+}
+
+.nav-logo h2{
+    color: white;
+    padding-top:15px;
+    font-size: 21px;
+   
+}
+.nav-logo img{
+    
+}
+
+.nav-menu li {
+    display: inline;
+    
+    padding: 25px;
+}
+.nav-menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+ 
+}
+.contact{
+    border: 1px solid white;
+    text-align: center;
+    padding: 1px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.top-left{
+    width: 30%;
+}
+.top-left h5{
+    color: #EF6D58;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+.top-icon{
+    justify-content: center;
+    padding-top: 28px;
+    margin-left: 86px;
+}
+.top-left h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.top-left p{
+    color: white;
+    font-size: 18px;
+}
+.top-right{
+    width: 35%;
+}
+.custom-btn:hover{
+   background-color: white;
+   
+}
+.custom-btn2:hover{
+   background-color: #EF6D58;
+   
+}
+.custom-btn{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #EF6D58;
+}
+.custom-btn2{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+.top-left a{
+    text-decoration:  none;
+    font-size: 16px;
+    padding: 10px 15px;
+    
+}
+.frame-img{
+    width: 80%;
+    margin-top: 20px;
+}
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 90px;
+}
+
+.ex-title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #391400;
+}
+.ex-icon{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 200px;
+    margin-top: 70px;
+    align-items: center;
+    /* justify-content: center; */
+    margin: auto;
+}
+.ex-experties{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 70px;
+}
+.ex-experties-left img{
+    width: 70%;
+}
+.ex-review{
+    margin-bottom: 40px;
+}
+.ex-review h3 {
+    color: white;
+    font-size: 32px;
+}
+.ex-review p{
+    color: white;
+    font-size: 20px;
+}
+.lastest-title,.clien-title{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 77px;
+    margin-bottom: 77px;
+}
+
+.lastest-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.design{
+    background-color: #D9D9D9;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+    font-size: 15px;
+    cursor: pointer;
+    left: 0px;
+}
+
+.first-one,.last-one{
+    position: relative;
+    text-align: center;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+}
+.name{
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.clien-review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    gap: 50px;
+}
+.clien-review-left{
+    width: 30%;
+}
+.clien-review-left img{
+    width: 100%;
+}
+.client-review-right{
+    width: 35%;
+}
+.client-review-right h1{
+    color: #0D0424;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+.clien-saying{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.star{
+    width: 25px;
+}
+.clien-say-left{
+    width: 30%;
+}
+.client-says{
+    background-color: #F0E3EC;
+}
+.clien-say-left {
+    background-color: white;
+    padding: 26px 38px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.clien-say-right{
+    width: 30%;
+}
+.stars {
+    margin-bottom: 20px;
+}
+.see-more{
+    text-align: center;
+
+}
+.see-more button{
+    padding: 15px 20px;
+    background-color: #0A135F;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 100px;
+    background-color:#F0E3EC ;
+}
+.footer-div {
+    list-style: none;
+    padding: 6px 49px;
+    font-size: 26px;
+    line-height: normal;
+    margin-bottom: 50px;
+}
